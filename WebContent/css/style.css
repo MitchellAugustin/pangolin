@@ -1,0 +1,91 @@
+﻿.main{
+   width: auto;
+   height: auto;
+   background-color: #A6CE3E;
+}
+.head{
+   vertical-align: middle;
+   margin: auto;
+   text-align: center;
+}
+.nav{
+   text-align: center;
+   width: 821px;
+   padding: 7px;
+   background-color: #240531;
+   border-radius: 5px;
+   margin-top: 7px;
+   color: #648118;
+}
+.body{
+   font-size: 16px;
+   background-color: #C3D690;
+   border-radius: 4px;
+   width: 90%;
+   height: auto;
+   text-align: left;
+   padding: 10px;
+   
+}
+.body a:link { 
+outline:none; 
+text-decoration:none;
+color: #9A809C; 
+}
+
+.body a:visited { 
+outline:none; 
+text-decoration:none; 
+color: #9A809C;
+}
+
+.body a:hover { 
+text-decoration:none; 
+font-weight:normal; 
+color: #6F5C70;
+}
+.footer{
+   font-size: 8px;
+}
+a:link {
+    color: #A7CE3E;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #A7CE3E;
+}
+
+/* mouse over link */
+a:hover {
+    color: #618109;
+}
+
+/* selected link */
+a:active {
+    color: #618109;
+}
+input[type=text], textarea {
+
+  background-color : #A0B076; 
+
+}
+input[type=password], textarea {
+
+  background-color : #A0B076; 
+
+}
+.button {
+	
+	border: none;
+	color: #CCA9CE;
+	background-color: #0A1700;
+	border-radius: 4px;
+	padding: 3px;
+	width: 60px;
+	
+}
+button:focus{
+    background-color: #112600;
+}
