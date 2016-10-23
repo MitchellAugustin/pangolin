@@ -65,7 +65,7 @@ public class Router {
 			}
 		}
 		
-		page += "<a href=\"" + Constants.GOOGLE_MAPS_URL + addresses[lowestShelter] + "\"><p>The nearest open shelter is " + shelters[lowestShelter] + " - " + distances[lowestShelter] + " miles from here.  (" + SaveFile.getLiveShelterDataFromDatabase(shelters[0]).replace(shelters[0] + ": ", "") + " occupants) </p></a><br><p>Other options include:</p>";
+		page += "<a href=\"" + Constants.GOOGLE_MAPS_URL + addresses[lowestShelter] + "\"><p>The nearest open shelter is " + shelters[lowestShelter] + " - " + distances[lowestShelter] + " miles from here.  (" + SaveFile.getLiveShelterDataFromDatabase(shelters[lowestShelter]).replace(shelters[lowestShelter] + ": ", "") + " occupants) </p></a><br><p>Other options include:</p>";
 		
 		for(int i = 0; i < shelters.length; i++){
 			if(Integer.parseInt(SaveFile.getLiveShelterDataFromDatabase(shelters[i]).replace(shelters[i] + ": ", "").split("/")[0]) != Integer.parseInt(SaveFile.getLiveShelterDataFromDatabase(shelters[i]).replace(shelters[i] + ": ", "").split("/")[1])){
@@ -98,7 +98,7 @@ public class Router {
 			}
 		}
 		
-		page += "<a href=\"" + Constants.GOOGLE_MAPS_URL + addresses[lowestShelter] + "\"><p>The nearest open shelter is " + shelters[lowestShelter] + " - " + distances[lowestShelter] + " miles from here.  (" + SaveFile.getLiveShelterDataFromDatabase(shelters[0]).replace(shelters[0] + ": ", "") + " occupants) </p></a><br><p>Other options include:</p>";
+		page += "<a href=\"" + Constants.GOOGLE_MAPS_URL + addresses[lowestShelter] + "\"><p>The nearest open shelter is " + shelters[lowestShelter] + " - " + distances[lowestShelter] + " miles from here.  (" + SaveFile.getLiveShelterDataFromDatabase(shelters[lowestShelter]).replace(shelters[lowestShelter] + ": ", "") + " occupants) </p></a><br><p>Other options include:</p>";
 		
 		for(int i = 0; i < shelters.length; i++){
 			if(Integer.parseInt(SaveFile.getLiveShelterDataFromDatabase(shelters[i]).replace(shelters[i] + ": ", "").split("/")[0]) != Integer.parseInt(SaveFile.getLiveShelterDataFromDatabase(shelters[i]).replace(shelters[i] + ": ", "").split("/")[1])){
